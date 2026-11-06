@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cantera | Club Deportivo de Fútbol & Pádel</title>
+  <meta name="description" content="Canchas de pádel y fútbol sintético con iluminación LED en Maracaibo. Reserva tu cancha en línea.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Orbes decorativos de fondo -->
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+  <div class="orb orb-3" aria-hidden="true"></div>
+
+  <a href="#contenido" class="skip-link">Saltar al contenido</a>
+
+  <!-- NAVEGACIÓN -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo" aria-label="Cantera, inicio">CANTERA<span class="dot">.</span></a>
+
+      <nav id="nav-menu" aria-label="Principal">
+        <ul class="nav-links">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#canchas" class="nav-link">Canchas</a></li>
+          <li><a href="#reservas" class="nav-link">Reservas</a></li>
+          <li><a href="#vacantes" class="nav-link">Torneos y empleo</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#reservas" class="btn btn-neon btn-sm header-cta">Reservar cancha</a>
+        <button class="theme-btn" id="theme-btn" aria-label="Cambiar tema claro/oscuro" title="Modo claro / oscuro">☀️</button>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- HERO -->
+    <section id="inicio" class="page-section active">
+      <div class="hero">
+        <img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1920&q=80" alt="Pistas de pádel iluminadas de noche en Cantera" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+          <div class="hero-text">
+            <span class="badge neon-badge"><i class="live-dot"></i> Complejo iluminado, abierto hasta las 11 pm</span>
+            <h1 class="hero-title">
+              <span class="line">Practica.</span>
+              <span class="line neon-text">Entrena.</span>
+              <span class="line terra-text">Disfruta.</span>
+            </h1>
+            <p class="hero-subtitle">Pádel y fútbol con iluminación LED de alta potencia, para jugar de día y de noche en Maracaibo.</p>
+            <div class="hero-actions">
+              <a href="#reservas" class="btn btn-neon btn-lg">Reservar mi cancha</a>
+              <a href="#canchas" class="btn btn-outline btn-lg">Ver las canchas</a>
+            </div>
+          </div>
+
+          <aside class="hero-widgets" aria-label="Destacados">
+            <div class="widget-card glass">
+              <div class="rating-badge">★ 4.9</div>
+              <p class="widget-title">Pádel, fútbol y multiuso</p>
+              <span class="widget-sub">8 áreas de juego disponibles</span>
+            </div>
+            <div class="widget-card terra-gradient">
+              <h4>Torneo Nocturno 2026</h4>
+              <p>Inscripciones abiertas para la Copa Cantera de Pádel y Fútbol 7.</p>
+              <a href="#vacantes" class="link-btn">Ver información</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <div class="container">
+        <dl class="stats-strip">
+          <div><dt>Pistas de pádel</dt><dd>4</dd></div>
+          <div><dt>Campos de fútbol</dt><dd>3</dd></div>
+          <div><dt>Cancha multiuso</dt><dd>1</dd></div>
+          <div><dt>Horario de juego</dt><dd>5–11 pm</dd></div>
+        </dl>
+
+        <div class="marquee-bar" aria-hidden="true">
+          <div class="marquee-track">
+            <span><b>✦</b>Pádel</span><span><b>✦</b>Fútbol 7</span><span><b>✦</b>Multiuso</span><span><b>✦</b>Iluminación LED</span><span><b>✦</b>Sports bar</span><span><b>✦</b>Torneos nocturnos</span><span><b>✦</b>Maracaibo</span>
+            <span><b>✦</b>Pádel</span><span><b>✦</b>Fútbol 7</span><span><b>✦</b>Multiuso</span><span><b>✦</b>Iluminación LED</span><span><b>✦</b>Sports bar</span><span><b>✦</b>Torneos nocturnos</span><span><b>✦</b>Maracaibo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="page-section">
+      <div class="container section-padding">
+        <div class="grid-2">
+          <div class="text-block">
+            <span class="badge terra-badge">Nuestras instalaciones</span>
+            <h2>Un complejo pensado para jugar a gusto</h2>
+            <p>En <strong>Cantera</strong> cuidamos cada detalle para que tu partido fluya: torres de iluminación cenital, césped sintético de alta amortiguación y cristales templados panorámicos.</p>
+            <div class="feature-pills">
+              <a href="#canchas" class="pill-tag">🎾 4 pistas de pádel panorámicas</a>
+              <a href="#canchas" class="pill-tag">⚽ 3 campos de fútbol sintético</a>
+              <a href="#canchas" class="pill-tag">🏀 1 cancha multiuso</a>
+              <a href="#contacto" class="pill-tag">🚗 Estacionamiento privado</a>
+            </div>
+          </div>
+          <div class="image-frame">
+            <img src="https://images.unsplash.com/photo-1529900748604-07564a03e7a6?auto=format&fit=crop&w=900&q=80" alt="Campo de fútbol sintético" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CANCHAS -->
+    <section id="canchas" class="page-section">
+      <div class="container section-padding">
+        <div class="section-header">
+          <span class="badge neon-badge">Canchas</span>
+          <h2>Elige dónde quieres jugar</h2>
+        </div>
+
+        <div class="bento-grid">
+          <div class="bento-card main-card" style="background-image: url('https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <span class="tag-label neon-tag">Pádel</span>
+              <h3>Pistas 1, 2, 3 y 4</h3>
+              <p>Iluminación nocturna, cristal templado y superficie azul reglamentaria.</p>
+              <a href="#reservas" class="btn btn-neon btn-sm">Reservar pádel</a>
+            </div>
+          </div>
+
+          <div class="bento-card main-card" style="background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <span class="tag-label terra-tag">Fútbol</span>
+              <h3>Campos A, B y C</h3>
+              <p>Grama sintética con demarcación reglamentaria, redes protectoras y banquillos.</p>
+              <a href="#reservas" class="btn btn-terra btn-sm">Reservar fútbol</a>
+            </div>
+          </div>
+
+          <div class="bento-card info-card highlight-blue has-bg" style="background-image: url('https://images.unsplash.com/photo-1577471488278-16eec37ffcc2?auto=format&fit=crop&w=900&q=80');">
+            <span class="card-icon">🏀</span>
+            <h3>Cancha multiuso</h3>
+            <p>Para varias disciplinas, entrenamiento funcional y eventos.</p>
+          </div>
+
+          <div class="bento-card info-card highlight-card has-bg" style="background-image: url('https://images.unsplash.com/photo-1538488881038-e252a119ace7?auto=format&fit=crop&w=900&q=80');">
+            <span class="card-icon">🍔</span>
+            <h3>Sports bar y terraza</h3>
+            <p>Zona elevada para descansar, con vista a todas las canchas e iluminación cálida.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVAS -->
+    <section id="reservas" class="page-section">
+      <div class="container section-padding">
+        <div class="section-header">
+          <span class="badge terra-badge">Reservas</span>
+          <h2>Elige día, cancha y horario</h2>
+        </div>
+
+        <div class="reservation-layout">
+          <div class="calendar-card has-bg" style="background-image: url('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=900&q=80');">
+            <div class="calendar-header">
+              <button type="button" class="cal-nav" id="cal-prev" aria-label="Mes anterior">‹</button>
+              <h3 id="calendar-month-year">Noviembre 2026</h3>
+              <button type="button" class="cal-nav" id="cal-next" aria-label="Mes siguiente">›</button>
+            </div>
+            <div class="calendar-weekdays">
+              <span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span>
+            </div>
+            <div class="calendar-days" id="calendar-days"></div>
+          </div>
+
+          <div class="booking-form-card has-bg" style="background-image: url('https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=900&q=80');">
+            <form id="booking-form">
+              <h3>Detalles de tu reserva</h3>
+              <p class="selected-date-text">Fecha elegida: <strong id="display-selected-date">Ninguna</strong></p>
+
+              <div class="form-group">
+                <label for="sport-select">Cancha</label>
+                <select id="sport-select" required>
+                  <option value="">Selecciona una cancha</option>
+                  <optgroup label="Pádel (pistas azules)">
+                    <option value="Pádel Cancha 1">Pádel - Cancha 1</option>
+                    <option value="Pádel Cancha 2">Pádel - Cancha 2</option>
+                    <option value="Pádel Cancha 3">Pádel - Cancha 3</option>
+                    <option value="Pádel Cancha 4">Pádel - Cancha 4</option>
+                  </optgroup>
+                  <optgroup label="Fútbol (grama sintética)">
+                    <option value="Fútbol Campo A">Fútbol - Campo A</option>
+                    <option value="Fútbol Campo B">Fútbol - Campo B</option>
+                    <option value="Fútbol Campo C">Fútbol - Campo C</option>
+                  </optgroup>
+                  <optgroup label="Multiuso">
+                    <option value="Cancha Multiuso Azul">Cancha multiuso (azul)</option>
+                  </optgroup>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label id="slots-label">Horario</label>
+                <div class="time-slots" role="group" aria-labelledby="slots-label">
+                  <button type="button" class="time-btn">17:00 - 18:30</button>
+                  <button type="button" class="time-btn">18:30 - 20:00</button>
+                  <button type="button" class="time-btn">20:00 - 21:30</button>
+                  <button type="button" class="time-btn">21:30 - 23:00</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="user-name">Nombre completo</label>
+                <input type="text" id="user-name" placeholder="Ej. Ricardo Morillo" required>
+              </div>
+
+              <div class="form-group">
+                <label for="user-phone">Teléfono / WhatsApp</label>
+                <input type="tel" id="user-phone" placeholder="0424XXXXXXX" required>
+              </div>
+
+              <button type="submit" class="btn btn-neon btn-lg btn-block">Confirmar reserva</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TORNEOS Y EMPLEO -->
+    <section id="vacantes" class="page-section">
+      <div class="container section-padding">
+        <div class="section-header">
+          <span class="badge neon-badge">Comunidad</span>
+          <h2>Torneos y trabajo en Cantera</h2>
+        </div>
+
+        <div class="grid-2 stretch">
+          <div class="content-card has-bg" style="background-image: url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=900&q=80');">
+            <span class="tag-pill neon-pill">Torneo de pádel y fútbol</span>
+            <h3>Liga Nocturna Cantera</h3>
+            <p>Compite en nuestras pistas iluminadas. Premios para los 3 primeros lugares de cada categoría.</p>
+            <button class="btn btn-neon btn-sm" onclick="openChatbot('Inscripción Liga Nocturna')">Inscribir equipo</button>
+          </div>
+
+          <div class="content-card has-bg" style="background-image: url('https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=900&q=80');">
+            <span class="tag-pill terra-pill">Trabaja con nosotros</span>
+            <h3>Staff de canchas y recepción</h3>
+            <p>Buscamos personal para logística deportiva, mantenimiento de grama y pistas, y atención al cliente.</p>
+            <button class="btn btn-terra btn-sm" onclick="openChatbot('Postulación de empleo')">Postularme</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="page-section">
+      <div class="container section-padding">
+        <div class="grid-2">
+          <div class="contact-details">
+            <span class="badge terra-badge">Ubicación</span>
+            <h2>Visítanos</h2>
+            <p>Estacionamiento privado vigilado, con espacio para jugadores y visitantes.</p>
+
+            <div class="contact-info-list">
+              <p><span>📍</span> Maracaibo, Estado Zulia, Venezuela</p>
+              <p><span>📞</span> +58 424-6041482</p>
+              <p><span>✉️</span> contacto@canterasport.com</p>
+            </div>
+
+            <div class="social-links-block">
+              <h4>Síguenos</h4>
+              <div class="pills-row">
+                <a href="https://api.whatsapp.com/message/44NGLQIWLXGIH1?autoload=1&app_absent=0" target="_blank" rel="noopener" class="pill-link whatsapp-pill">💬 WhatsApp</a>
+                <a href="https://www.instagram.com/lacanterasp/reel/DfN3tQWgdJi/" target="_blank" rel="noopener" class="pill-link instagram-pill">📸 Instagram</a>
+                <a href="https://www.tiktok.com/@cantera_mcbo" target="_blank" rel="noopener" class="pill-link tiktok-pill">🎵 TikTok</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-box">
+            <iframe
+              title="Ubicación de Cantera en Google Maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.5976211246237!2d-71.6367861!3d10.6915469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8999335bcddfa7%3A0x4f96d2fece457d9d!2sCantera%20-%20F%C3%BAtbol%20%2B%20P%C3%A1del!5e0!3m2!1ses!2sve!4v1700000000000!5m2!1ses!2sve"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#inicio" class="logo">CANTERA<span class="dot">.</span></a>
+      <p>Club deportivo de fútbol y pádel · Maracaibo, Zulia</p>
+      <p class="footer-copy">© 2026 Cantera. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- CHATBOT -->
+  <div class="chatbot-widget">
+    <button class="chatbot-toggle" onclick="toggleChat()" aria-label="Abrir chat">💬 Chat Cantera</button>
+    <div class="chatbot-window" id="chat-window">
+      <div class="chat-header">
+        <span>Asistente Cantera</span>
+        <button class="close-btn" onclick="toggleChat()" aria-label="Cerrar chat">✕</button>
+      </div>
+      <div class="chat-body" id="chat-body">
+        <div class="bot-msg">¡Hola! ⚽🎾 Pregúntame por la disponibilidad de las canchas de pádel, fútbol o multiuso.</div>
+      </div>
+      <div class="chat-footer">
+        <input type="text" id="chat-input" placeholder="Escribe tu consulta..." aria-label="Mensaje">
+        <button onclick="sendMessage()">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
